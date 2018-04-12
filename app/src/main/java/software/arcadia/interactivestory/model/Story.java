@@ -1,6 +1,6 @@
-package com.teamtreehouse.interactivestory.model;
+package software.arcadia.interactivestory.model;
 
-import com.teamtreehouse.interactivestory.R;
+import software.arcadia.interactivestory.R;
 
 public class Story {
 

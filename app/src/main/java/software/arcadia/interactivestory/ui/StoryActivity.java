@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory.ui;
+package software.arcadia.interactivestory.ui;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -11,11 +11,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.teamtreehouse.interactivestory.R;
-import com.teamtreehouse.interactivestory.model.Page;
-import com.teamtreehouse.interactivestory.model.Story;
-
 import java.util.Stack;
+
+import software.arcadia.interactivestory.R;
+import software.arcadia.interactivestory.model.Page;
+import software.arcadia.interactivestory.model.Story;
 
 public class StoryActivity extends AppCompatActivity {
 

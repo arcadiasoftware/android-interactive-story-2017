@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory;
+package software.arcadia.interactivestory;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.teamtreehouse.interactivestory", appContext.getPackageName());
+        assertEquals("software.arcadia.interactivestory", appContext.getPackageName());
     }
 }

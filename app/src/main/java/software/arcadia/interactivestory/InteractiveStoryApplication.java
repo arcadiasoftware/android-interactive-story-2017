@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory;
+package software.arcadia.interactivestory;
 
 import android.app.Activity;
 import android.app.Application;

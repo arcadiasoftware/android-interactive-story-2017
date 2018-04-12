@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory.model;
+package software.arcadia.interactivestory.model;
 
 public class Choice {
     private int textId;

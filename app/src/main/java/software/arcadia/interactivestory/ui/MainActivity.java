@@ -1,4 +1,4 @@
-package com.teamtreehouse.interactivestory.ui;
+package software.arcadia.interactivestory.ui;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.teamtreehouse.interactivestory.R;
-
 public class MainActivity extends AppCompatActivity {
 
     private EditText nameField;
@@ -18,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(software.arcadia.interactivestory.R.layout.activity_main);
 
-        nameField = (EditText)findViewById(R.id.nameEditText);
-        startButton = (Button)findViewById(R.id.startButton);
+        nameField = (EditText)findViewById(software.arcadia.interactivestory.R.id.nameEditText);
+        startButton = (Button)findViewById(software.arcadia.interactivestory.R.id.startButton);
 
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private void startStory(String name) {
         Intent intent = new Intent(this, StoryActivity.class);
         Resources resources = getResources();
-        String key = resources.getString(R.string.key_name);
+        String key = resources.getString(software.arcadia.interactivestory.R.string.key_name);
         intent.putExtra(key, name);
         startActivity(intent);
     }
